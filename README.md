@@ -1,3 +1,6 @@
+<b>FAQs regarding Apache Jackrabbit Oak</b>
+  
+<b>What is FileBlobStore(also in context of cluster)? </b>  
 When you speak of FileBlobStore we associate it to the Datastore which is "different" from the NodeStore.
 The NodeStore is the part you think about clustering using a DocumentNodeStore implementation. 
 You can configure any of our DocumentNS implementation (Mongo and RDB) with a FileBlobStore. 
