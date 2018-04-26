@@ -18,4 +18,6 @@ Please also note that we don't recommend use NFS as of latency. And if you reall
 
 <b>Any recommendations / things to avoid using the RDBDocumentStore? </b>
 
-No such list as of now. However do ensure that binaries are not stored in Database and you make use of any external DataStore 
+No such list as of now. However do ensure that binaries are not stored in Database and you make use of any external DataStore
+
+<b>Important information regarding Segments : https://issues.apache.org/jira/browse/OAK-6921 </b>
